@@ -1,11 +1,10 @@
 {
-  "homepage":".",
   "name": "mantine-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "tsc && vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
