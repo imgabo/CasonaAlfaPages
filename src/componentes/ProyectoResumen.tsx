@@ -7,7 +7,7 @@ const useStyles = createStyles((theme) => ({
     backgroundColor: "#6BC2B4",
     width: "100%",
     marginTop: "30px",
-    height: "auto",
+    height: "70vh",
 
     position: "relative",
   },
@@ -69,8 +69,6 @@ const ProyectoResumen = () => {
 
       // Comprueba si el div está visible en la ventana
       if (divTop) {
-        console.log(divTop);
-        console.log(window.innerHeight);
         const isVisible = divTop < window.innerHeight;
         setIsVisible(isVisible);
       }
