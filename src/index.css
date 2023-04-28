@@ -12,10 +12,12 @@ body {
   user-select: none;
 
 }
-#root {
-  height: 100%;
 
-  
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
 }
 
 .custom-shape-divider-top-1681352320 {

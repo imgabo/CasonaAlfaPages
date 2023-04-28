@@ -2,7 +2,7 @@ import { createStyles, Text } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
     inner : {
-        backgroundColor:'rgba(234, 234, 234, 0.8)',
+        backgroundColor:'rgba(234, 234, 234, 0.4)',
         width:'100%',
         height:'300px',
         display:'flex',

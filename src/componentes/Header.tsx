@@ -62,7 +62,7 @@ import {
   }));
   
   interface HeaderSearchProps {
-    links: { link: string; label: string; links: { link: string; label: string }[] }[];
+    links: { link: string; label: string; links: { link: string; label: string }[]  }[];
   }
   
 function HeaderBar({ links }: HeaderSearchProps) {
@@ -72,8 +72,8 @@ function HeaderBar({ links }: HeaderSearchProps) {
         const menuItems = link.links?.map((item) => (
           <Menu.Item key={item.link}>{item.label}</Menu.Item>
         ));
-    
-        if (menuItems) {
+          
+        if (menuItems.length >0) {
           return (
             <Menu key={link.label} trigger="hover" transitionProps={{ exitDuration: 0 }} withinPortal>
               <Menu.Target>
@@ -98,7 +98,7 @@ function HeaderBar({ links }: HeaderSearchProps) {
             key={link.label}
             href={link.link}
             className={classes.link}
-            onClick={(event) => event.preventDefault()}
+            
           >
             {link.label}
           </a>
