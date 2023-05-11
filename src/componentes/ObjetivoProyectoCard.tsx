@@ -16,8 +16,13 @@ const useStyles = createStyles((theme) => ({
   card: {
     position: "relative",
     overflow: "visible",
-    width: "25%",
-    height:'100%',
+
+    width:'30%',
+    [theme.fn.smallerThan("md")]: {
+        minWidth:'100%',
+       
+    },
+    
     padding: theme.spacing.xl,
     paddingTop: `calc(${theme.spacing.xl} * 1.5 + ${ICON_SIZE} / 3)`,
   },

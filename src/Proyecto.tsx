@@ -43,8 +43,10 @@ const useStyles = createStyles((theme) => ({
 
     justifyContent:'center',
     [theme.fn.smallerThan("md")]: {
-        flexDirection:'column',
-        alignItems:'center'
+        display:'grid',
+        gridRow:'auto auto',
+        gridTemplateColumns:'200px 200px',
+        columnGap:'20px'
         
     }
   }
