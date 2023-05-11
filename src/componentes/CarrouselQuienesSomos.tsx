@@ -9,7 +9,7 @@ import Imagen5 from "../assets/CarrouselQuienesSomos/imagen5.webp";
 import Imagen6 from "../assets/CarrouselQuienesSomos/imagen6.webp";
 import Imagen7 from "../assets/CarrouselQuienesSomos/imagen7.webp";
 import Imagen8 from "../assets/CarrouselQuienesSomos/imagen8.webp";
-import Imagen9 from "../assets/CarrouselQuienesSomos/imagen9.webp";
+
 
 const useStyles = createStyles((theme) => ({
   border: {
