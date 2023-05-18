@@ -69,7 +69,7 @@ const Equipo = () => {
           <FotoEquipo
             image={cristian}
             nombre="Cristian Reyes Gamboa"
-            cargo="TESORERO"
+            cargo="SECRETARIO"
           ></FotoEquipo>
           <FotoEquipo
             image={raul}

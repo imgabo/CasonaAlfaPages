@@ -53,7 +53,7 @@ const useStyles = createStyles((theme) => ({
   },
   imagenFilterHover:{
     position:'absolute',
-    backgroundColor:'#408378',
+    backgroundColor:'#264e48',
     opacity:'0.6',
     height:'100%',
     width:'100%',

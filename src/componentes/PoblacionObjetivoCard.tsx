@@ -59,7 +59,7 @@ const PoblacionObjetivoCard = () => {
 
         <Text fw={300} ta="justify" mt="md">
           Población de adulto mayor autovalente, en edad temprana de 57 a 67
-          años. Primera etapa 50 adultos mayores
+          años. Primera etapa 50 adultos mayores autovalentes.
         </Text>
       </Paper>
     </>

@@ -103,7 +103,7 @@ const QuienesSomos = () => {
           año 2020 trabajamos en la planificación y puesta en marcha de nuestro
           proyecto, esta organización cuenta con su gran motivación de crear
           nuestra propia CASA DE REPOSO SOCIAL, levantada con recursos propios,
-          privados , proyectos concursantes y del estado Chileno. Esta
+          privados , proyectos concursables y del estado Chileno. Esta
           iniciativa fue creada en el seno de nuestra promoción observando lo
           que sucede con la sociedad actual con los adultos mayores, quienes
           pasan a ser relegados como ciudadanos de segunda categoría, sin

@@ -34,7 +34,7 @@ const Objetivo = () =>{
     return (
         <div className={classes.inner} >
             <Text align="justify" className={classes.texto}>
-                <div><span className={classes.textSub}>Desarrollar</span> un proyecto de innovación social para crear casas de reposo <span className={classes.textSub}>sin fines de lucro </span>para adultos mayores buscando las herramientas necesarias para  que se puedan autofinanciar con sus propios recursos, subvenciones del estado y activar una actividad comercial de acuerdo a sus propias capacidades. </div>
+                <div><span className={classes.textSub}>Desarrollar</span> un proyecto de innovación social para crear casas de reposo <span className={classes.textSub}>sin fines de lucro </span>para adultos mayores buscando las herramientas necesarias para  que se puedan autofinanciar con sus propios recursos, subvenciones del estado y desarollar una actividad comercial de acuerdo a sus propias capacidades. </div>
             </Text>
         </div>
     );
