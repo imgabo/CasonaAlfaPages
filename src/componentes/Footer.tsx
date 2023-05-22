@@ -22,8 +22,9 @@ const useStyles = createStyles((theme) => ({
     paddingTop: theme.spacing.xl,
     paddingBottom: theme.spacing.xl,
 
-    [theme.fn.smallerThan("xs")]: {
+    [theme.fn.smallerThan("sm")]: {
       flexDirection: "column",
+    
     },
   },
 
@@ -31,6 +32,7 @@ const useStyles = createStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+ 
   },
 
   links: {

@@ -19,7 +19,9 @@ const useStyles = createStyles((theme) => ({
       alignItems: "center",
       height:'auto',
       justifyContent: "center",
+     
     },
+    paddingBottom:rem(40),
 
     backgroundColor: "rgba(234, 234, 234, 0.4)",
   },
@@ -43,10 +45,11 @@ const useStyles = createStyles((theme) => ({
 
     justifyContent:'center',
     [theme.fn.smallerThan("md")]: {
-        display:'grid',
-        gridRow:'auto auto',
-        gridTemplateColumns:'200px 200px',
-        columnGap:'20px'
+        // display:'grid',
+        // gridRow:'auto auto',
+        // gridTemplateColumns:'200px 200px',
+        // columnGap:'20px'
+        flexDirection:'column'
         
     }
   }
