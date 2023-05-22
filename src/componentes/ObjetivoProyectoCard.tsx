@@ -59,12 +59,12 @@ const ObjetivoProyectoCard = () => {
           Objetivo del Proyecto
         </Text>
     
-        <Text fw={300} ta="justify" mt="md">
+        <Text fw={300} ta="justify" mt="md" >
           Desarrollar un proyecto de innovación social para crear casas de
           reposo sin fines de lucro para adultos mayores buscando las
           herramientas necesarias para que se puedan autofinanciar con sus
-          propios recursos, subvenciones del estado y desarrollar una actividad
-          comercial de acuerdo a sus propias capacidades
+          propios recursos, privados,  subvenciones del estado y desarrollar una actividad
+          comercial de acuerdo a sus propias capacidades.
         </Text>
       </Paper>
     </>

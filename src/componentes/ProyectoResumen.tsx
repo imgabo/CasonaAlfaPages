@@ -8,7 +8,10 @@ const useStyles = createStyles((theme) => ({
     width: "100%",
     marginTop: "30px",
     height: "70vh",
-
+    paddingBottom:'30px',
+    [theme.fn.smallerThan("md")]: {
+      height:'auto'
+    },
     position: "relative",
   },
   spaceContent: {
@@ -26,11 +29,17 @@ const useStyles = createStyles((theme) => ({
   },
 
   innerContent: {
+    marginLeft:'70px',
+   
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     width: "50%",
     fontFamily: "Roboto",
+    [theme.fn.smallerThan("md")]: {
+      width: "90%",
+      margin:0,
+    },
   },
   textoTitulo: {
     color: "white",
@@ -42,10 +51,15 @@ const useStyles = createStyles((theme) => ({
     width: "45%",
     fontWeight: 400,
     fontSize: "20px",
-    [theme.fn.smallerThan("xl")]: {
+    [theme.fn.smallerThan("md")]: {
       width: "100%",
       fontSize: "30px",
     },
+  },
+  image:{
+    border: "5px solid #ffff",
+ 
+
   },
   wave: {
     position: "absolute",
@@ -110,10 +124,11 @@ const ProyectoResumen = () => {
               {(styles) => (
                 <div className={classes.innerContent} style={styles}>
                   <Image
-                    width={450}
+                   width='100%'
                     height="auto"
                     src={Proyecto2}
-                    style={{ border: "5px solid #ffff" }}
+                    className={classes.image}
+                    
                   />
                 </div>
               )}

@@ -13,6 +13,11 @@ const useStyles = createStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     height: "70vh",
+    [theme.fn.smallerThan("md")]: {
+      flexDirection:'column',
+      height:'100%'
+      
+    },
   },
 }));
 

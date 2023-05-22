@@ -19,7 +19,18 @@ const useStyles = createStyles((theme) => ({
         alignItems:'center',
         justifyContent:'center',
         textShadow: '2px 2px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff',
-    }
+    },
+    maincontainer :{
+        position : 'relative',
+        overflow : 'hidden',
+        width: '100%',
+        height:'58vh',
+     
+
+    },
+
+
+
 
 
 }));
@@ -40,7 +51,7 @@ function Carrousel() {
       
     }, []);
     return (
-        <div style={{position:'relative',overflow:'hidden', width:'100%', height:'58vh'}} >
+        <div className={classes.maincontainer} >
         
             <Image
                 height={'600'}
@@ -56,7 +67,7 @@ function Carrousel() {
                 <Transition mounted={showText} transition="slide-up" duration={400} timingFunction="ease">
                     {(styles) => (
                         <Text align="center" style={styles}>
-                        <h2 style={{fontSize:60, margin:0}}>CASA DE DESCANSO</h2>
+                        <h2 style={{fontSize:60, margin:0}}>CASA DE REPOSO</h2>
                         </Text>
                     )}
                    

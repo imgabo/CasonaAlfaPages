@@ -15,12 +15,15 @@ const useStyles = createStyles((theme) => ({
         fontWeight:500,
         height:'100%',
         fontSize:20,
-     
         width:'56%',
         position:'absolute',
         display:'flex',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
+        [theme.fn.smallerThan("sm")]: {
+            fontSize:17,
+            width:'90%',
+        },
         
     },
     textSub:{
