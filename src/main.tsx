@@ -9,12 +9,14 @@ import HeaderBar from "./componentes/Header";
 import FooterComp from "./componentes/Footer";
 import Equipo from "./Equipo";
 import Proyecto from "./Proyecto";
+import Contacto from "./Contacto";
 
 const links = [
   { link: "./", label: "Inicio", links: [] },
   { link: "./about", label: "Nosotros", links: [] },
   { link: "/proyecto", label: "Proyecto", links: [] },
   { link: "/equipo", label: "Equipo", links: [] },
+  { link: "/contacto", label: "Contacto", links: [] },
 ];
 const linksFooter = [
   { link: "", label: "Inicio" },
@@ -34,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "proyecto",
     element: <Proyecto />,
+  },
+  {
+    path: "contacto",
+    element: <Contacto />,
   },
 ]);
 

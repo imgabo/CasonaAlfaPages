@@ -7,7 +7,7 @@ const useStyles = createStyles((theme) => ({
     backgroundColor: "#6BC2B4",
     width: "100%",
     marginTop: "30px",
-    height: "70vh",
+    height: "90vh",
     paddingBottom:'30px',
     [theme.fn.smallerThan("md")]: {
       height:'auto'
