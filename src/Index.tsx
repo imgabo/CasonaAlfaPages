@@ -6,6 +6,7 @@ import QuienesSomos from "./componentes/QuienesSomos";
 import ProyectoResumen from "./componentes/ProyectoResumen";
 import Cards from "./componentes/Cards";
 
+
 const useStyles = createStyles((theme) => ({
   cards: {
     display: "flex",
