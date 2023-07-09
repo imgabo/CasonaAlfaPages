@@ -12,7 +12,6 @@ const useStyles = createStyles((theme) => ({
   linear: {
     display: "block",
     margin: 30,
-
     borderStyle: "inset",
     borderWidth: "1px",
     height: "1px",
@@ -37,7 +36,7 @@ const useStyles = createStyles((theme) => ({
   },
   Titulo: {
     fontFamily: "Roboto",
-    fontSize: "45px",
+    fontSize: "38px",
     fontWeight: 500,
     textAlign: "center",
     margin: 0,

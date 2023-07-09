@@ -15,7 +15,7 @@ import { useState } from "react";
 const useStyles = createStyles((theme) => ({
   imageContainer: {
     position: 'relative',
-    height: "70vh",
+    height: "100%",
     width: "100%",
     overflowX:'hidden',
     cursor:'pointer',

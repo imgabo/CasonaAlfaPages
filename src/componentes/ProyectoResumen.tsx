@@ -20,7 +20,7 @@ const useStyles = createStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    [theme.fn.smallerThan("xl")]: {
+    [theme.fn.smallerThan("md")]: {
       paddingTop: rem(135),
       flexDirection: "column",
       alignItems: "center",
@@ -48,12 +48,12 @@ const useStyles = createStyles((theme) => ({
   },
 
   texto: {
-    width: "45%",
+    padding:'0 45px',
     fontWeight: 400,
     fontSize: "20px",
     [theme.fn.smallerThan("md")]: {
       width: "100%",
-      fontSize: "30px",
+      fontSize: "20px",
     },
   },
   image:{

@@ -8,10 +8,16 @@ import ObjetivoProyectoCard from "./componentes/ObjetivoProyectoCard";
 import PoblacionObjetivoCard from "./componentes/PoblacionObjetivoCard";
 
 const useStyles = createStyles((theme) => ({
+  inner: {
+    height: '100%',
+    minHeight: '100vh',
+    
+},
   cardDescripcion: {
 
     width: "100%",
-    height:'40vh',
+    
+ 
     overflow: "hidden",
     position: "relative",
     [theme.fn.smallerThan("md")]: {
@@ -21,7 +27,7 @@ const useStyles = createStyles((theme) => ({
       justifyContent: "center",
      
     },
-    paddingBottom:rem(40),
+    paddingBottom:rem(0),
 
     backgroundColor: "rgba(234, 234, 234, 0.4)",
   },
@@ -42,7 +48,7 @@ const useStyles = createStyles((theme) => ({
 
     display:'flex',
     gap:'3rem',
-
+   
     justifyContent:'center',
     [theme.fn.smallerThan("md")]: {
         // display:'grid',
@@ -58,9 +64,9 @@ const useStyles = createStyles((theme) => ({
 const Proyecto = () => {
   const { classes } = useStyles();
   return (
-    <>
+    <section className={classes.inner}>
       <CarouselProyecto />
-      <section className={classes.cardDescripcion}>
+      <div className={classes.cardDescripcion}>
         <div className={classes.plano}>
             <Image height={"auto"} width={"auto"} src={plano} />
         </div>
@@ -71,8 +77,8 @@ const Proyecto = () => {
             <PoblacionObjetivoCard />
         </div>
         
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

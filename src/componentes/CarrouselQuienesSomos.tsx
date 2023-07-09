@@ -12,6 +12,7 @@ import Imagen8 from "../assets/CarrouselQuienesSomos/imagen8.webp";
 
 const useStyles = createStyles((theme) => ({
   border: {
+    height: '350px',
     border: "5px solid #6BC2B4",
   },
 }));
@@ -20,18 +21,17 @@ const CarrouselQuienesSomos = () => {
   const { classes } = useStyles();
   return (
     <>
-     
 
-      <Carousel loop maw={250}  align="start"  withControls={false} withIndicators height='auto' className={classes.border}>
-            <Carousel.Slide> <Image width={250} height={350} src={Imagen1} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen2} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen4} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen5} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen6} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen7} /></Carousel.Slide>
-            <Carousel.Slide><Image width={250} height={350} src={Imagen8} /></Carousel.Slide>
-  
-        </Carousel>
+
+      <Carousel loop maw={250} align="start" withControls={false} withIndicators height='350px' className={classes.border}>
+        <Carousel.Slide> <Image width={250} height={350} src={Imagen1} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen2} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen4} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen5} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen6} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen7} /></Carousel.Slide>
+        <Carousel.Slide><Image width={250} height={350} src={Imagen8} /></Carousel.Slide>
+      </Carousel>
     </>
   );
 };

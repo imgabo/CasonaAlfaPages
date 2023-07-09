@@ -10,10 +10,11 @@ import FooterComp from "./componentes/Footer";
 import Equipo from "./Equipo";
 import Proyecto from "./Proyecto";
 import Contacto from "./Contacto";
+import QuienesSomos from "./Somos";
 
 const links = [
   { link: "./", label: "Inicio", links: [] },
-  { link: "./about", label: "Nosotros", links: [] },
+  { link: "/nosotros", label: "Nosotros", links: [] },
   { link: "/proyecto", label: "Proyecto", links: [] },
   { link: "/equipo", label: "Equipo", links: [] },
   { link: "/contacto", label: "Contacto", links: [] },
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "contacto",
     element: <Contacto />,
+  },
+  {
+    path: "nosotros",
+    element: <QuienesSomos />,
   },
 ]);
 
